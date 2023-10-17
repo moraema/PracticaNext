@@ -1,0 +1,98 @@
+.chat-de-comentarios {
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f3f5;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.comentarios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.comentario {
+    background-color: #dfe3eb;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+}
+
+.usuario {
+    font-weight: bold;
+    color: #1877f2;
+    margin-right: 5px;
+}
+
+.comentario i {
+    margin-right: 5px;
+}
+
+.texto-comentario {
+    flex: 1;
+}
+
+.acciones button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #1877f2;
+    margin-right: 5px;
+}
+
+.editar-comentario input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+.nuevo-comentario {
+    display: flex;
+    margin-top: 10px;
+}
+
+.nuevo-comentario input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.nuevo-comentario button {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.acciones button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #1877f2;
+    margin-right: 5px;
+    flex: 0 0 auto;
+    margin-top: 5px;
+}
+
+.editar-comentario button {
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    flex: 0 0 auto;
+    margin-top: 5px;
+}
